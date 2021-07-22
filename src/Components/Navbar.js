@@ -9,8 +9,8 @@ function Navbar() {
                 {/* <div className="text-3xl font-bold cursor-pointer">Kh_Shuhat</div> */}
                 <ul className="text-lg font-semibold self-end">
                     <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg">Home</li>
+                    <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg">My Skills</li>
                     <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg">Projects</li>
-                    <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg">Contact</li>
                 </ul>
             </div>
         </div>
