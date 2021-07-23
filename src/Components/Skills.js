@@ -3,7 +3,7 @@ import React from 'react'
 function Skills() {
     return (
         <div className="bg-white pt-24 pl-10 container mx-auto">
-            <div className="text-4xl font-bold text-green-800 mb-20 pl-24">My Skills</div>
+            <div className="text-4xl font-bold text-green-800 mb-20 pl-10">My Skills</div>
             <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Frontend Technologies:</div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
 

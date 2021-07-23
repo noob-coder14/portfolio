@@ -5,6 +5,7 @@ import Recognition from "./Components/Recognition";
 import WorkExperience from "./Components/WorkExperience";
 import Skills from "./Components/Skills";
 import Footer from "./Components/Footer";
+import ReachMe from "./Components/ReachMe";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <OrgExperience/>
       <Recognition/>
       <Skills/>
+      <ReachMe/>
       <Footer/>
     </div>
   );
