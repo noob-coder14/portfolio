@@ -15,9 +15,6 @@ function ReachMe() {
                         <p className="ml-6 text-3xl text-center md:text-4xl my-4 leading-relaxed md:leading-snug">
                             Leave me a message here!
                         </p>
-                        {/* <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                            Please provide your valuable feedback and something something ...
-                        </p> */}
                     </div>
                     <div className="flex flex-col w-full lg:w-1/2 justify-center">
                         <div className="container w-full">
