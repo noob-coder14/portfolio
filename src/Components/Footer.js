@@ -13,11 +13,11 @@ function Footer() {
                 <div className="flex-col flex gap-y-2 pb-6">
                     <div className="font-bold text-xl pb-3">My Contacts</div>
                     <div className="flex gap-x-2">
-                        <div className=""><i class="fas fa-envelope-open-text fa-lg"></i></div>
+                        <div className=""><i className="fas fa-envelope-open-text fa-lg"></i></div>
                         <div className="font-semibold self-auto	">helloworld@shuhat.dev</div>
                     </div>
                     <div className="flex gap-x-2">
-                        <div className=""><i class="fas fa-phone-volume fa-lg"></i></div>
+                        <div className=""><i className="fas fa-phone-volume fa-lg"></i></div>
                         <div className="font-semibold self-auto	">+8801766813937</div>
                     </div>
                 </div>
@@ -25,16 +25,16 @@ function Footer() {
                 <div className="pb-6">
                     <div className="font-bold text-xl pb-4">My Connections</div>
                     <div className="flex flex-row gap-x-4">
-                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i class="fab fa-facebook-f fa-2x"></i></div>
-                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i class="fab fa-linkedin-in fa-2x"></i></div>
-                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i class="far fa-envelope fa-2x"></i></div>
-                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i class="fab fa-github fa-2x"></i></div>
-                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i class="fab fa-dev fa-2x"></i></div>
+                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i className="fab fa-facebook-f fa-2x"></i></div>
+                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i className="fab fa-linkedin-in fa-2x"></i></div>
+                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i className="far fa-envelope fa-2x"></i></div>
+                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i className="fab fa-github fa-2x"></i></div>
+                        <div className="bg-gray-50 p-4 h-16 w-16 rounded-full hover:shadow-lg cursor-pointer"><i className="fab fa-dev fa-2x"></i></div>
                     </div>
                 </div>
             </div>
             
-            <div className="text-center pb-0"><i class="far fa-copyright"></i>Copyright 2021 Kh Shuhat Uddin</div>
+            <div className="text-center pb-0"><i className="far fa-copyright"></i>Copyright 2021 Kh Shuhat Uddin</div>
         </div>
     )
 }

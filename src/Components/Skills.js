@@ -20,7 +20,7 @@ function Skills() {
                     </div>
 
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
-                        <div className="h-12 w-12 m-auto text-blue-400"><i class="fab fa-bootstrap fa-3x"></i></div>
+                        <div className="h-12 w-12 m-auto text-blue-400"><i className="fab fa-bootstrap fa-3x"></i></div>
                         <div className="text-green-700 font-bold text-xl pb-1.5">Bootstrap</div>
                         <div className="rounded-md text-base font-bold bg-green-700 text-white">Intermediate</div>
                     </div>

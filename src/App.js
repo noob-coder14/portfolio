@@ -1,25 +1,30 @@
-import Landing from "./Components/Landing";
-import Education from "./Components/Education";
-import OrgExperience from "./Components/OrgExperience";
-import Recognition from "./Components/Recognition";
-import WorkExperience from "./Components/WorkExperience";
-import Skills from "./Components/Skills";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 import ReachMe from "./Components/ReachMe";
-
+import Home from "./Pages/Home";
+import MySkills from './Pages/MySkills';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
-    <div>
-      <Landing/>
-      <WorkExperience/>
-      <Education/>
-      <OrgExperience/>
-      <Recognition/>
-      <Skills/>
+    <Router>
+      <Navbar/>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route exact path="/myskills">
+          <MySkills/>
+        </Route>
+        <Route exact path="/projects">
+          <Projects/>
+        </Route>
+      </Switch>
+      
       <ReachMe/>
       <Footer/>
-    </div>
+    </Router>
   );
 }
 
