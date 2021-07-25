@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import ReachMe from "./Components/ReachMe";
 import Home from "./Pages/Home";
 import MySkills from './Pages/MySkills';
-import Projects from './Pages/Projects';
+import Projects from './Pages/MyProjects';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/myskills">
           <MySkills/>
         </Route>
-        <Route exact path="/projects">
+        <Route exact path="/myprojects">
           <Projects/>
         </Route>
       </Switch>

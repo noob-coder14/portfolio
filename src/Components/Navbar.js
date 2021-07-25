@@ -12,7 +12,7 @@ function Navbar() {
                         <ul className="text-lg font-semibold self-end">
                             <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg"><Link to="/">Home</Link></li>
                             <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg"><Link to="/myskills">My Skills</Link></li>
-                            <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg"><Link to="/projects">Projects</Link></li>
+                            <li className="inline ml-5 p-2 cursor-pointer hover:bg-green-100 rounded-lg"><Link to="/myprojects">My Projects</Link></li>
                         </ul>
                     </div>
                 </div>

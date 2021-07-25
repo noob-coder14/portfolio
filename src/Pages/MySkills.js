@@ -1,11 +1,11 @@
 import React from 'react'
-import Landing from '../Components/Landing'
+import LandingSkills from '../Components/LandingSkills'
 import Skills from '../Components/Skills'
 
 function MySkills() {
     return (
         <div>
-            <Landing/>
+            <LandingSkills/>
             <Skills/>
         </div>
     )
