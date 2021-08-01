@@ -13,10 +13,10 @@ function Landing() {
                     <span>Download My CV</span>
                 </button>
                 <div className="mt-16 flex flex-row justify-center gap-x-12">
-                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><i className="fab fa-github fa-2x"/></div>
-                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><i className="fab fa-linkedin-in fa-2x"/></div>
-                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><i className="fab fa-stack-overflow fa-2x"/></div>
-                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><i className="fab fa-dev fa-2x"/></div>
+                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><a href="https://github.com/zipped36"><i className="fab fa-github fa-2x"/></a></div>
+                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><a href="https://stackoverflow.com/users/14694891/shuhat36"><i className="fab fa-stack-overflow fa-2x"/></a></div>
+                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><a href="https://www.linkedin.com/in/khshuhatuddin/"><i className="fab fa-linkedin-in fa-2x"/></a></div>
+                    <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><a href="https://dev.to/"><i className="fab fa-dev fa-2x"/></a></div>
                 </div>
             </div>
         </div>

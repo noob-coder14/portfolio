@@ -14,7 +14,7 @@ function Footer() {
                     <div className="font-bold text-xl pb-3">My Contacts</div>
                     <div className="flex gap-x-2">
                         <div className=""><i className="fas fa-envelope-open-text fa-lg"></i></div>
-                        <div className="font-semibold self-auto	">helloworld@shuhat.dev</div>
+                        <div className="font-semibold self-auto	">dev@shuhat.me</div>
                     </div>
                     <div className="flex gap-x-2">
                         <div className=""><i className="fas fa-phone-volume fa-lg"></i></div>
