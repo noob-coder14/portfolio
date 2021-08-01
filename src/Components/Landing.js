@@ -10,7 +10,9 @@ function Landing() {
                 <div className="text-xl	mt-3">I'm a <span className="font-bold">Software Developer</span></div>
                 <button className="mt-5 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                     <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
-                    <span>Download My CV</span>
+                    <span><form method="get" action="Kh Shuhat Uddin.pdf">
+                        <button type="submit">Download My CV</button>
+                    </form></span>
                 </button>
                 <div className="mt-16 flex flex-row justify-center gap-x-12">
                     <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><a href="https://github.com/zipped36"><i className="fab fa-github fa-2x"/></a></div>
