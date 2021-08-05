@@ -19,10 +19,11 @@ function LandingSkills() {
                     <div className="bg-white p-4 h-16 w-16 rounded-full hover:shadow-xl cursor-pointer"><i className="fab fa-dev fa-2x"/></div>
                 </div>
 
-                <div className="flex mt-24 justify-center gap-x-6">
+                <div className="flex mt-24 mb-24 justify-center gap-x-6">
                     <div className="text-xl font-bold self-center">scroll down please</div>
                     <span style={{color: "#059669"}}><i class="fas fa-arrow-circle-down fa-7x"></i></span>
                 </div>
+                <img src="color pencil.png" className="overflow-hidden mx-auto"></img>
             </div>
         </div>
     )

@@ -4,7 +4,7 @@ import Skills from '../Components/Skills'
 
 function MySkills() {
     return (
-        <div>
+        <div className="z-300">
             <LandingSkills/>
             <Skills/>
         </div>
