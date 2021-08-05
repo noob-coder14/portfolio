@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingSkills() {
     return (
-        <div className="h-screen bg-green-50 relative pt-48 z-0">
+        <div className="h-screen bg-green-50 relative pt-48 overflow-hidden">
             <div className="container mx-auto text-center">
                 {/* <div className="text-5xl"></div> */}
                 <div className="text-4xl font-semibold mt-3 font-Amatic">I'm flattered that you are exploring</div>
@@ -24,7 +24,9 @@ function LandingSkills() {
                     <div className="text-xl font-bold self-center">scroll down please</div>
                     <span style={{color: "#059669"}}><i class="fas fa-arrow-circle-down fa-7x"></i></span>
                 </div> */}
-                <img src="color pencil.png" className="float-right"></img>
+                <div className="flex flex-row-reverse">
+                    <img src="color pencil.png" className="w-1/6"></img>
+                </div>
             </div>
         </div>
     )

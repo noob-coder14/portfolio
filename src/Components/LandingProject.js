@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingProject() {
     return (
-        <div className="h-screen bg-green-50 pt-48 z-0">
+        <div className="h-screen bg-green-50 pt-48 overflow-hidden">
             <div className="container mx-auto text-center">
                 <div className="text-4xl font-semibold mt-3 font-Amatic">Can't thank you enough for visiting</div>
                 <div className="text-5xl font-semibold mt-6 font-Acme">'My Projects'</div>
@@ -17,7 +17,9 @@ function LandingProject() {
                         <div className="text-xl font-bold self-center">scroll down please</div>
                         <span style={{color: "#059669"}}><i class="fas fa-arrow-circle-down fa-7x"></i></span>
                     </div> */}
-                    <img src="color pencil.png" className="float-right"></img> 
+                <div className="flex flex-row-reverse">
+                    <img src="color pencil.png" className="w-1/6"></img>
+                </div> 
                 </div>
             </div>
     )
