@@ -3,9 +3,9 @@ import React from 'react'
 function WorkExperience() {
     return (
         <div className="bg-white mt-8 pt-24 pb-12 pl-10 container mx-auto">
-            <div className="text-4xl font-bold text-green-800 mb-20 pl-24">Working Experience</div>
+            <div className="text-4xl font-bold text-green-800 mb-20 pl-24 font-Itim">Working Experience</div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20 font-archD">
                 <div className="justify-self-center h-24 w-24"><img src="./brainekt.png" alt="Brainekt Logo"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">Brainekt</div>
@@ -15,7 +15,7 @@ function WorkExperience() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20 font-archD">
                 <div className="justify-self-center h-24 w-24"><img src="./brac.png" alt="brac Logo"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">BRAC</div>
@@ -25,7 +25,7 @@ function WorkExperience() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20 font-archD">
                 <div className="justify-self-center h-24 w-24"><img src="./msoft.png" alt="Microsoft Logo"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">Microsoft Young Bangla</div>

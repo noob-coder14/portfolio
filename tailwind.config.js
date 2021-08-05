@@ -7,7 +7,8 @@ module.exports = {
         'Acme': "'Acme', sans-serif",
         'Patrick': "'Patrick Hand', cursive",
         'Amatic': "'Amatic SC', cursive",
-        'Itim': "'Itim', cursive"
+        'Itim': "'Itim', cursive",
+        'archD': "'Architects Daughter', cursive"
       },
       // backgroundImage: theme=>({
       //   'colorPencil': "url('public/color pencil.png')"

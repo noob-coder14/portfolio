@@ -2,10 +2,10 @@ import React from 'react'
 
 function OrgExperience() {
     return (
-        <div className="bg-white pt-24 pl-10 container mx-auto">
-            <div className="text-4xl font-bold text-green-800 mb-20 pl-24">Organizations</div>
+        <div className="bg-white pt-20 pl-10 container mx-auto">
+            <div className="text-4xl font-bold text-green-800 mb-20 pl-24 font-Itim">Organizations</div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20 font-archD">
                 <div className="justify-self-center h-24 w-24"><img src="./we_the_olympians logo.jpg" alt="Kuet Logo" className="rounded-full"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">We the Olympians</div>
@@ -14,7 +14,7 @@ function OrgExperience() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20 font-archD">
                 <div className="justify-self-center h-24 w-24"><img src="./MEC logo.png" alt="Kuet Logo"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">MEC Club</div>
