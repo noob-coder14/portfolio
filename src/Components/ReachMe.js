@@ -3,7 +3,7 @@ import React from 'react'
 function ReachMe() {
     return (
         <div className="pt-24 pl-10 container mx-auto">
-            <div className="text-4xl font-bold text-green-800 mb-20 pl-10">Reach Me</div>
+            <div className="text-4xl font-bold text-green-800 mb-20 pl-24">Reach Me</div>
             
             <div className="">
                 <div className="container mx-auto flex flex-col md:flex-row my-6 md:my-24">

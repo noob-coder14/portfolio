@@ -4,7 +4,8 @@ function Skills() {
     return (
         <div className="bg-white pt-24 pl-10 container mx-auto">
             <div className="text-4xl font-bold text-green-800 mb-20 pl-10">My Skills</div>
-            <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Frontend Technologies:</div>
+            <div className="text-2xl font-bold text-green-800 mb-2 pl-28">Frontend Technologies:</div>
+            <div className="h-0.5 w-full ml-20 bg-green-50 mb-8 "></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
 
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
@@ -38,7 +39,8 @@ function Skills() {
                     </div> 
             </div>
 
-                <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Backend Technologies:</div>
+                <div className="text-2xl font-bold text-green-800 mb-2 pl-28">Backend Technologies:</div>
+                <div className="h-0.5 w-full ml-20 bg-green-50 mb-8 "></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
 
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
@@ -60,7 +62,8 @@ function Skills() {
                     </div>
                 </div> 
 
-                <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Database:</div>
+                <div className="text-2xl font-bold text-green-800 mb-2 pl-28">Database:</div>
+                <div className="h-0.5 w-full ml-20 bg-green-50 mb-8"></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
                         <img src="./skill icons/mongo.svg" className="h-12 w-20 m-auto"/>
@@ -69,7 +72,8 @@ function Skills() {
                     </div>   
                 </div>
 
-                <div className="text-2xl font-bold text-green-800 mb-10 pl-28">APIs:</div>
+                <div className="text-2xl font-bold text-green-800 mb-2 pl-28">APIs:</div>
+                <div className="h-0.5 w-full ml-20 bg-green-50 mb-8"></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
                         <img src="./skill icons/rest.png" className="h-12 w-20 m-auto"/>
@@ -78,7 +82,8 @@ function Skills() {
                     </div>   
                 </div>  
 
-                <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Testing Tools:</div>
+                <div className="text-2xl font-bold text-green-800 mb-2 pl-28">Testing Tools:</div>
+                <div className="h-0.5 w-full ml-20 bg-green-50 mb-8"></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
                         <img src="./skill icons/postman.svg" className="h-12 w-12 m-auto"/>
@@ -87,7 +92,8 @@ function Skills() {
                     </div>   
                 </div>
 
-                <div className="text-2xl font-bold text-green-800 mb-10 pl-28">Designing Tools:</div>
+                <div className="text-2xl font-bold text-green-800 mb-2 pl-28">Designing Tools:</div>
+                <div className="h-0.5 w-full ml-20 bg-green-50 mb-8"></div>
                 <div className="mx-auto w-11/12 flex pl-28 gap-x-12 gap-y-8 flex-wrap pb-16">
                     <div className="bg-green-50 p-5 pl-12 pr-12 rounded-lg w-60 text-center">
                         <img src="./skill icons/xd.png" className="h-12 w-12 m-auto"/>

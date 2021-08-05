@@ -22,7 +22,7 @@ function OrgExperience() {
                     <div className="w-8/12">This club is providing the mentorship regarding many software projects and different tech-domains. This is a club that is run for the students and by the students. Country's biggest tech event named Technival-2018 is organised by this club. </div>
                 </div>
             </div>
-            
+            <div className="h-0.5 w-full bg-green-200"></div>
         </div>
     )
 }

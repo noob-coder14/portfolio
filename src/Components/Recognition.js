@@ -23,7 +23,7 @@ function Recognition() {
                     <div className="w-8/12">A edu-startup competetion organized by EMK center. I participated as a team lead of "We the Olympiads" and selected for the final pitch round</div>
                 </div>
             </div>
-            
+            <div className="h-0.5 w-full bg-green-200"></div>
         </div>
     )
 }

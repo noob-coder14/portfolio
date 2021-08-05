@@ -2,7 +2,7 @@ import React from 'react'
 
 function WorkExperience() {
     return (
-        <div className="bg-white pt-24 pl-10 container mx-auto">
+        <div className="bg-white mt-8 pt-24 pb-12 pl-10 container mx-auto">
             <div className="text-4xl font-bold text-green-800 mb-20 pl-24">Working Experience</div>
 
             <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
@@ -33,7 +33,7 @@ function WorkExperience() {
                     <div className="w-8/12">This was a Three-day long event for young minds to nurture leadership quality and to set up the learning curves to be an Entrepreneur. </div>
                 </div>
             </div>
-            
+            <div className="h-0.5 w-full bg-green-200"></div>
         </div>
     )
 }

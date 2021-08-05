@@ -25,7 +25,7 @@ function Education() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-5 gap-6 ml-8">
+            <div className="grid grid-cols-5 gap-6 ml-8 mb-20">
                 <div className="justify-self-center h-24 w-24"><img src="./drmc logo.png" alt="Kuet Logo"></img></div>
                 <div className="col-span-4 self-center">
                     <div className="text-xl font-bold text-green">Dhaka Residential Model College</div>
@@ -34,7 +34,7 @@ function Education() {
                     <div className="">Jan, 2010 - February, 2012</div>
                 </div>
             </div>
-    
+            <div className="h-0.5 w-full bg-green-200"></div>
         </div>
     )
 }
