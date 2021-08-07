@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 
 function Landing() {
     return (
-        <div className="h-screen bg-green-50 pt-48 z-200 overflow-hidden">
+        <div className="h-screen bg-green-50 pt-48 z-200 relative overflow-hidden">
             <div className="container mx-auto text-center">
-                <div className="text-5xl font-Acme"> Hello! Welcome to my site!</div>
+                <div className="text-3xl font-Acme md:text-4xl lg:text-5xl"> Hello! Welcome to my site!</div>
                 <div className="mx-auto mt-8 mb-4">
-                    <img src="ppic.png" className="z-0 h-100 w-80 mt-4 mx-auto"></img>
+                    <img src="ppic.png" className="h-64 md:h-80 lg:h-96 mx-auto mt-12"></img>
                 </div>
                 {/* <div className="text-6xl font-semibold mt-3">Shuhat</div>
                 <div className="text-xl	mt-3">I'm a <span className="font-bold">Software Developer</span></div> */}
@@ -17,15 +17,16 @@ function Landing() {
                         <button type="submit">Download My CV</button>
                     </form></span>
                 </button>
-                <div className="mt-10 mb-4 flex flex-row justify-center gap-x-12 relative">
+                <div className="mt-12 mb-24 flex flex-row justify-center gap-x-12 relative">
                     <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://github.com/zipped36"><i className="fab fa-github fa-2x mx-auto"/></a></div>
                     <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://stackoverflow.com/users/14694891/shuhat36"><i className="fab fa-stack-overflow fa-2x"/></a></div>
                     <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://www.linkedin.com/in/khshuhatuddin/"><i className="fab fa-linkedin-in fa-2x"/></a></div>
                     <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://dev.to/"><i className="fab fa-dev fa-2x"/></a></div>
                 </div>
-                <div className="flex flex-row-reverse">
-                    <img src="color pencil.png" className="w-1/6"></img>
-                </div>
+                {/* <div className="bg-repeat-x h-24 w-24" style={{src:"https://img.freepik.com/free-vector/writting-pencil-design_1095-187.jpg?size=338&ext=jpg"}}></div> */}
+                {/* <div className="absolute lg:-bottom-24 md:-bottom-18 -bottom-12 right-12 md:right-18 lg:right-24 z-0 w-1/2 mx-auto mt-12">
+                    <img src="color pencil.png" className="w-32 md:w-48 lg:w-64 bg-repeat-x"></img>
+                </div> */}
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ function LandingSkills() {
                 {/* <div className="text-5xl"></div> */}
                 <div className="text-4xl font-semibold mt-3 font-Amatic">I'm flattered that you are exploring</div>
                 <div className="text-5xl font-semibold mt-6 font-Acme">'My Skills'</div>
-                <img src="skillsimg.png" className="h-96 mx-auto mt-12"></img>
+                <img src="skillsimg.png" className="h-60 md:h-80 lg:h-96 mx-auto mt-12"></img>
                 {/* <div className="text-xl	mt-3">I'm a <span className="font-bold">Software Developer</span></div> */}
                 {/* <button className="mt-5 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                     <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
@@ -24,9 +24,9 @@ function LandingSkills() {
                     <div className="text-xl font-bold self-center">scroll down please</div>
                     <span style={{color: "#059669"}}><i class="fas fa-arrow-circle-down fa-7x"></i></span>
                 </div> */}
-                <div className="flex flex-row-reverse">
+                {/* <div className="flex flex-row-reverse">
                     <img src="color pencil.png" className="w-1/6"></img>
-                </div>
+                </div> */}
             </div>
         </div>
     )
