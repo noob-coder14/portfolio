@@ -2,8 +2,8 @@ import React from 'react'
 
 function ReachMe() {
     return (
-        <div className="pt-24 pl-10 container mx-auto">
-            <div className="text-4xl font-bold text-green-800 mb-20 pl-24 font-Itim">Reach Me</div>
+        <div className="pt-24 pl-0 lg:pl-10 container mx-auto">
+            <div className="text-4xl font-bold text-green-800 mb-20 pl-16 md:pl-24 font-Itim">Reach Me</div>
             
             <div className="font-Patrick">
                 <div className="container mx-auto flex flex-col md:flex-row my-6 md:my-24">
@@ -19,7 +19,7 @@ function ReachMe() {
                     <div className="flex flex-col w-full lg:w-1/2 justify-center">
                         <div className="container w-full">
                             <div className="flex flex-wrap justify-center">
-                                <div className="w-8/12 px-2">
+                                <div className="w-8/12 px-2 md:w-8/12">
                                     <div className="flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-white">
                                         <div className="flex-auto p-8">
                                             <h4 className="text-2xl mb-4 text-black font-semibold">
