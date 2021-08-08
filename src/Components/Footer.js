@@ -26,11 +26,11 @@ function Footer() {
                 <div className="pb-2">
                     {/* <div className="font-bold text-right text-xl pb-4">My Connections</div> */}
                     <div className="flex flex-row justify-center gap-x-6 md:gap-x-10 lg:gap-x-12 mx-2 md:mx-0 pb-4">
-                        <div className="bg-gray-50 h-14 w-14 p-2.5 rounded-full hover:shadow-lg cursor-pointer"><a href="https://www.facebook.com/shuhat3231/"><i className="fab fa-facebook-f fa-2x"/></a></div>
-                        <div className="bg-gray-50 h-14 w-14 p-2.5 rounded-full hover:shadow-lg cursor-pointer"><a href="https://www.linkedin.com/in/khshuhatuddin/"><i className="fab fa-linkedin-in fa-2x"/></a></div>
-                        <div className="bg-gray-50 h-14 w-14 p-2.5 rounded-full hover:shadow-lg cursor-pointer"><a href="mailto:shuhat1971@gmail.com"><i className="far fa-envelope fa-2x"/></a></div>
-                        <div className="bg-gray-50 h-14 w-14 p-2.5 rounded-full hover:shadow-lg cursor-pointer"><a href="https://github.com/zipped36"><i className="fab fa-github fa-2x"/></a></div>
-                        <div className="bg-gray-50 h-14 w-14 p-2.5 rounded-full hover:shadow-lg cursor-pointer"><a href="https://dev.to/"><i className="fab fa-dev fa-2x"/></a></div>
+                        <div className="bg-gray-50 w-14 rounded-full hover:shadow-lg cursor-pointer flex justify-center"><a href="https://www.facebook.com/shuhat3231/" className="place-self-center p-2.5"><i className="fab fa-facebook-f fa-2x"/></a></div>
+                        <div className="bg-gray-50 w-14 rounded-full hover:shadow-lg cursor-pointer flex justify-center"><a href="https://www.linkedin.com/in/khshuhatuddin/" className="place-self-center p-2.5"><i className="fab fa-linkedin-in fa-2x"/></a></div>
+                        <div className="bg-gray-50 w-14 rounded-full hover:shadow-lg cursor-pointer flex justify-center"><a href="mailto:shuhat1971@gmail.com" className="place-self-center p-2.5"><i className="far fa-envelope fa-2x"/></a></div>
+                        <div className="bg-gray-50 w-14 rounded-full hover:shadow-lg cursor-pointer flex justify-center"><a href="https://github.com/zipped36" className="place-self-center p-2.5"><i className="fab fa-github fa-2x"/></a></div>
+                        <div className="bg-gray-50 w-14 rounded-full hover:shadow-lg cursor-pointer flex justify-center"><a href="https://dev.to/" className="place-self-center p-2.5"><i className="fab fa-dev fa-2x"/></a></div>
                     </div>
                 </div>
             </div>

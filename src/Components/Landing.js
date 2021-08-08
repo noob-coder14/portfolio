@@ -17,11 +17,11 @@ function Landing() {
                         <button type="submit">Download My CV</button>
                     </form></span>
                 </button>
-                <div className="mt-12 mb-24 flex flex-row justify-center gap-x-12 relative">
-                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://github.com/zipped36"><i className="fab fa-github fa-2x mx-auto"/></a></div>
-                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://stackoverflow.com/users/14694891/shuhat36"><i className="fab fa-stack-overflow fa-2x"/></a></div>
-                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://www.linkedin.com/in/khshuhatuddin/"><i className="fab fa-linkedin-in fa-2x"/></a></div>
-                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer"><a href="https://dev.to/"><i className="fab fa-dev fa-2x"/></a></div>
+                <div className="mt-12 mb-24 flex flex-row justify-center gap-x-12 relative flex-shrink-0	">
+                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer flex justify-center"><a href="https://github.com/zipped36" className="place-self-center p-2.5"><i className="fab fa-github fa-2x"/></a></div>
+                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer flex justify-center"><a href="https://stackoverflow.com/users/14694891/shuhat36" className="place-self-center p-2.5"><i className="fab fa-stack-overflow fa-2x"/></a></div>
+                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer flex justify-center"><a href="https://www.linkedin.com/in/khshuhatuddin/" className="place-self-center p-2.5"><i className="fab fa-linkedin-in fa-2x"/></a></div>
+                    <div className="bg-white h-14 w-14 p-2.5 rounded-full hover:shadow-xl cursor-pointer flex justify-center"><a href="https://dev.to/" className="place-self-center p-2.5"><i className="fab fa-dev fa-2x"/></a></div>
                 </div>
                 {/* <div className="bg-repeat-x h-24 w-24" style={{src:"https://img.freepik.com/free-vector/writting-pencil-design_1095-187.jpg?size=338&ext=jpg"}}></div> */}
                 {/* <div className="absolute lg:-bottom-24 md:-bottom-18 -bottom-12 right-12 md:right-18 lg:right-24 z-0 w-1/2 mx-auto mt-12">
