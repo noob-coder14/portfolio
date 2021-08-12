@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingProject() {
     return (
-        <div className="h-screen bg-green-50 pt-48 overflow-hidden">
+        <div className="h-screen bg-green-50 md:pt-48 p-36 overflow-hidden">
             <div className="container mx-auto text-center">
                 <div className="text-4xl font-semibold mt-3 font-Amatic">Can't thank you enough for visiting</div>
                 <div className="text-5xl font-semibold mt-6 font-Acme mb-9">'My Projects'</div>

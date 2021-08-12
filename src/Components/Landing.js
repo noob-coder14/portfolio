@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Landing() {
     return (
-        <div className="h-screen bg-green-50 pt-48 z-200 relative overflow-hidden">
+        <div className="h-screen bg-green-50 md:pt-48 p-36 z-200 relative overflow-hidden">
             <div className="container mx-auto text-center">
                 <div className="text-3xl font-Acme md:text-4xl lg:text-5xl"> Hello! Welcome to my site!</div>
                 <div className="mx-auto mt-8 mb-4">

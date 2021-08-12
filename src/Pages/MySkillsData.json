@@ -1,0 +1,87 @@
+[
+    {
+        "id" : "01",
+        "Name" : "HTML",
+        "Expertise_Level" : "Expert",
+        "Img" : "./skill icons/html-5.png",
+        "Section": "FrontEnd Technologies"
+    },
+    {
+        "id" : "02",
+        "Name" : "CSS",
+        "Expertise_Level" : "Expert",
+        "Img" : "./skill icons/css-3.png",
+        "Section": "FrontEnd Technologies"
+    },
+    {
+        "id" : "03",
+        "Name" : "Bootstrap",
+        "Expertise_Level" : "Intermediate",
+        "Img" : "./skill icons/bootstrap.png",
+        "Section": "FrontEnd Technologies"
+    },
+    {
+        "id" : "04",
+        "Name" : "ReactJS",
+        "Expertise_Level" : "Intermediate",
+        "Img" : "./skill icons/react.png",
+        "Section": "FrontEnd Technologies"
+    },
+    {
+        "id" : "05",
+        "Name" : "Tailwind",
+        "Expertise_Level" : "Expert",
+        "Img" : "./skill icons/tailwind.svg",
+        "Section": "FrontEnd Technologies"
+    },
+    {
+        "id" : "05",
+        "Name" : "NodeJS",
+        "Expertise_Level" : "Introductory",
+        "Img" : "./skill icons/node.png",
+        "Section": "BackEnd Technologies"
+    },
+    {
+        "id" : "06",
+        "Name" : "ExpressJS",
+        "Expertise_Level" : "Introductory",
+        "Img" : "./skill icons/express.svg",
+        "Section": "BackEnd Technologies"
+    },
+    {
+        "id" : "07",
+        "Name" : "Web Sockets",
+        "Expertise_Level" : "Introductory",
+        "Img" : "./skill icons/sockets.png",
+        "Section": "BackEnd Technologies"
+    },
+    {
+        "id" : "08",
+        "Name" : "MongoDB",
+        "Expertise_Level" : "Introductory",
+        "Img" : "./skill icons/mongo.svg",
+        "Section": "DB Technologies"
+    },
+    {
+        "id" : "09",
+        "Name" : "REST API",
+        "Expertise_Level" : "Introductory",
+        "Img" : "./skill icons/rest.png",
+        "Section": "API Technologies"
+    },
+    {
+        "id" : "09",
+        "Name" : "Postman",
+        "Expertise_Level" : "Intermediate",
+        "Img" : "./skill icons/postman.svg",
+        "Section": "Testing Technologies"
+    },
+    {
+        "id" : "09",
+        "Name" : "Adobe XD",
+        "Expertise_Level" : "Expert",
+        "Img" : "./skill icons/xd.png",
+        "Section": "Design Technologies"
+    }
+
+]

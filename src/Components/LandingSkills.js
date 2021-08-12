@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingSkills() {
     return (
-        <div className="h-screen bg-green-50 relative pt-48 overflow-hidden">
+        <div className="h-screen bg-green-50 relative md:pt-48 p-36 overflow-hidden">
             <div className="container mx-auto text-center">
                 {/* <div className="text-5xl"></div> */}
                 <div className="text-4xl font-semibold mt-3 font-Amatic">I'm flattered that you are exploring</div>
